@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-#-------------------------------------------------------------------------
-dotconfig add ~/.xinitrc
-dotconfig add ~/.bashrc_aliases
-dotconfig add ~/.bashrc
-dotconfig add ~/.xmonad/xmonad.hs
-dotconfig add ~/.config/kitty/kitty.conf
-dotconfig add ~/.config/picom/picom.conf
