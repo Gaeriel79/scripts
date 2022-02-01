@@ -1,7 +1,9 @@
 dotadd.sh
 cd ~
-dotconfig commit -m "autoupdate"
-dotconfig push http://github.com/Gaeriel79/dotfiles.git
+/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME commit -m "autoupdate"
+push http://github.com/Gaeriel79/dotfiles.git
+/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME commit -m "autoupdate"
+push http://github.com/Gaeriel79/dotfiles.git
 
 cd scripts
 git add -A
