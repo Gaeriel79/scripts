@@ -17,4 +17,4 @@ echo "Namen für den SSH Key angeben:"
 read keyname
 
 #Command
-ssh-keygen  -t ed25519 -f ${keyname}
+ssh-keygen  -t ed25519 -f ~/.ssh/${keyname}
